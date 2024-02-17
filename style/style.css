@@ -1,0 +1,289 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Kanit:wght@100&family=Kantumruy+Pro:wght@600&family=Lobster&family=Noto+Sans+Khmer:wght@300;600;800&family=Poppins:ital,wght@0,400;1,200&family=Quicksand:wght@300&family=Righteous&display=swap');
+/* div{
+    border: 1px dashed red;
+} */
+/* .search-contain{
+    margin: 50px 20px;
+    gap:20px;
+}
+.search-contain,button{
+    width: 200px;
+}
+.main-search{
+  height: 100px;
+  width: 100%;
+} */
+.btn-yellow{
+  background-color: #F5D061;
+}
+
+body{
+  background-color: #111212;
+  font-family: 'Kanit', sans-serif;
+  font-weight: 600;
+}
+.bg-btn{
+  background-color: #F8F6F6;
+  color: #111212;
+}
+.image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  bottom: 0;
+  /* background-color: #F5D061; */
+  background: rgb(0, 0, 0);
+background: rgba(0, 0, 0, 0.5); 
+  height: 50px;
+  overflow: hidden;
+}
+
+.card:hover .image {
+  opacity: 0.6;
+}
+
+.card:hover .middle {
+  opacity: 0.9;
+}
+.card:hover .text{
+  transition: .5s ease;
+  margin-top: 10px;
+
+}
+.text {
+  /* background-color: #04AA6D; */
+  font-size: 14px;
+  margin-top: 45px;
+}
+.text a{
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+}
+.logo
+{
+  display: block;
+  margin: auto;
+}
+.btn-yellow{
+  background-color: #F5D061;
+}
+body{
+  background-color: #111212;
+
+}
+.bg-btn{
+  background-color: #F8F6F6;
+  color: #111212;
+}
+.mb-2
+{
+  color: whitesmoke;
+}
+ul li a
+{
+  color: white;
+}
+/* div{
+  border: 1px dashed red;
+} */
+@media screen and (max-width:992px) {
+  .media-item{
+display: grid;
+place-items: center;
+  }
+}
+.image-shadow{
+  position: relative;
+}
+.image-shadow::before{
+  content: '';
+  background-repeat:no-repeat;
+  background-size: cover;
+  background-position: 70%;
+  position: absolute;
+  opacity: 0.5;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+}
+.image-shadow-one{
+  position: relative;
+}
+.image-shadow-one::before{
+  content: '';
+  background-image: url("../img/movie1.jpg");
+  background-repeat:repeat-x;
+  background-size: cover;
+  background-position: 70%;
+  position: absolute;
+  opacity: 0.5;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+}
+.image-shadow2{
+  position: relative;
+}
+.image-shadow2::before{
+  content: '';
+  background-image: url("../img/movie0.jpg");
+  background-repeat:repeat-x;
+  background-size: cover;
+  background-position: 70%;
+  position: absolute;
+  opacity: 0.5;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+}
+.image-shadow3{
+  position: relative;
+}
+.image-shadow3::before{
+  content: '';
+  background-image: url("../img/serie1.jpg");
+  background-repeat:repeat-x;
+  background-size: cover;
+  background-position: 70%;
+  position: absolute;
+  opacity: 0.5;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+}
+.font-title{
+  font-family: 'Kanit', sans-serif;
+  font-weight: bolder;
+}
+.border-btn{
+  border: 1px solid #F8F6F6;
+}
+.bg-btn-color{
+  background-color: #CF4647;
+}
+.font-navbar{
+  font-size: 16px;
+}
+/* signin signup */
+.logo{
+  width: 450px;
+  
+}
+.logo img{
+  width: 100%;
+}
+
+
+.login{
+  width: 450px;
+  height: 450px;
+
+}
+.login input{
+  margin-top: 25px;
+}
+.login p{
+  text-align: center;
+}
+.loginout-btn{
+  width: 100%;
+  background-color: #F5D061;
+  transition: 0.3s;
+}
+.loginout-btn:hover{
+  transform: none;
+  color: #F8F6F6;
+}
+.logo-body{
+  width: 60%;
+  height: 70%;
+}
+.font-login{
+  color: #F8F6F6;
+}
+.font-login-p{
+  font-weight: 100;
+  opacity: 0.7;
+}
+/* display */
+.backgroun_play{
+  position: relative;
+  margin-left:-10px;
+}
+.backgroun_play{
+  content: '';
+  background-image: url('../img/movie7.jpg');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  height: auto;
+  opacity: 0.8;
+}
+
+* {
+  color: #F8F6F6;
+}
+
+.background {
+  display: flex;
+  position: absolute;
+  min-width: 100%;
+  height: 100vh;
+  background-size: contain;
+  z-index: -1;
+  filter: brightness(50%);
+}
+
+article {
+  position: absolute;
+  top: 50%;
+  left: 10%;
+  height: 500px;
+  width: 500px;
+}
+
+p {
+  color: rgb(192, 184, 184);
+  font-family: "Montserrat", sans-serif;
+
+}
+
+h1 {
+  font-family: "kanit", sans-serif;
+
+}
+
+body {
+  background-color: #111212;
+  margin: 0;
+}
+
+@media screen and (max-width:992px) {
+  .media-item {
+      display: grid;
+      place-items: center;
+  }
+}
+
+.container {
+  margin: auto;
+
+}
+
+.row {
+  padding: 0;
+}
